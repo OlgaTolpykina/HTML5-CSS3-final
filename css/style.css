@@ -107,7 +107,7 @@ input[type="search"]:focus {
 .slider-arrow-left {
   display: block;
   width: 40px;
-  height: 73px;
+  height: 60px;
   opacity: 0.5;
   position: relative;
 }
@@ -115,7 +115,7 @@ input[type="search"]:focus {
   content: "";
   display: inline-block;
   width: 40px;
-  height: 60px;
+  height: 40px;
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
   -webkit-transform: rotate(225deg);
@@ -127,7 +127,7 @@ input[type="search"]:focus {
 .slider-arrow-right {
   display: block;
   width: 40px;
-  height: 73px;
+  height: 60px;
   opacity: 0.5;
   position: relative;
 }
