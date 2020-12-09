@@ -1,0 +1,15 @@
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+}
+.header {
+  background: url(../img/bg_photo_header.png) contain no-repeat;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
