@@ -77,7 +77,10 @@
   border: none;
   background-color: transparent;
   outline: none;
+  padding: 0;
 }
 .header-topline-button-basket svg {
   fill: #fff;
+  width: 18px;
+  height: 24px;
 }
