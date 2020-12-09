@@ -124,14 +124,14 @@ input[type="search"]:focus {
   top: 10px;
   left: -25px;
 }
-.slider-arrow-left {
+.slider-arrow-right {
   display: block;
   width: 40px;
   height: 73px;
   opacity: 0.5;
   position: relative;
 }
-.slider-arrow-left:after {
+.slider-arrow-right:after {
   content: "";
   display: inline-block;
   width: 40px;
