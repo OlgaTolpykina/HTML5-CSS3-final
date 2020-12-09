@@ -14,33 +14,29 @@
   color: #fff;
   display: flex;
   flex-wrap: wrap;
-}
-
-.header-topline {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.header-topline-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.header-topline-logo-icon {
-  fill: #fff;
-  width: 64px;
-  height: 56px;
-}
-
-.header-topline-logo-txt {
-  margin: 0 219px 0 0;
-  font-size: 34px;
-  line-height: 1.2;
-  font-weight: 400;
-  letter-spacing: -0.04em;
-  color: #fff;
+  &-topline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      text-transform: capitalize;
+      &-icon {
+        fill: #fff;
+        width: 64px;
+        height: 56px;
+      }
+      &-txt {
+        margin: 0 219px 0 0;
+        font-size: 34px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.04em;
+        color: #fff;
+      }
+    }
+  }
 }
