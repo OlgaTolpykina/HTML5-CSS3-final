@@ -50,3 +50,20 @@
   letter-spacing: -0.04em;
   color: #fff;
 }
+.header-topline-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header-topline-navigation-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 30px 0 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #fff;
+}
