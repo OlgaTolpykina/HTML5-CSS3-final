@@ -84,3 +84,18 @@
   width: 18px;
   height: 24px;
 }
+input[type="search"] {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  background-image: url(../img/icon_search.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+input[type="search"]:focus {
+  width: 300px;
+  -webkit-transition: width 1s ease-out;
+  transition: width 1s ease-out;
+  background-position: right;
+  border: 1px solid gray;
+}
