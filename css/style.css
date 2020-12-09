@@ -102,6 +102,7 @@ input[type="search"] {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
+  border: none;
 }
 input[type="search"]:focus {
   width: 300px;
