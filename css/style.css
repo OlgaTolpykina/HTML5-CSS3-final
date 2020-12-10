@@ -194,7 +194,7 @@
   opacity: 0.5;
   background-color: #fff;
 }
-.header-carusel-pagination-item:nth-child(2) {
+.header-carusel-pagination-item:nth-of-type(2) {
   width: 15px;
   height: 15px;
   border: 2px solid #d3c1ad;
