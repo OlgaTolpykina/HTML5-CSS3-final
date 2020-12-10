@@ -113,6 +113,10 @@
   height: 73px;
   margin: 0 476px 0 0;
 }
+.header-carusel-text {
+  display: block;
+  width: 590px;
+}
 .header-carusel-text-slogan {
   font-size: 36px;
   line-height: 1.2;
