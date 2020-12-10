@@ -140,15 +140,17 @@
   line-height: 24px;
   font-weight: 300;
   text-transform: capitalize;
+  text-align: center;
 }
 .header-carusel-button-getstarted {
   width: 170px;
+  height: 53px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: none;
   border-bottom: 3px solid #736357;
-  border-radius: 10px;
+  border-radius: 3px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -177,6 +179,15 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+}
+.header-carusel-pagination-item {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin: 0 10px;
+  opacity: 0.5;
+  background-color: #fff;
 }
 input[type="search"] {
   width: 24px;
