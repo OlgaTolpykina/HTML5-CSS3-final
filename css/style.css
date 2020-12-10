@@ -94,10 +94,9 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 285px 0 0 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -114,26 +113,30 @@
   margin: 0 476px 0 0;
 }
 .header-carusel-text {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 590px;
 }
 .header-carusel-text-slogan {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .header-carusel-text-title {
   font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .header-carusel-text-txt {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .header-carusel-button-getstarted {
   width: 170px;
