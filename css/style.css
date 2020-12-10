@@ -65,7 +65,9 @@
   text-transform: capitalize;
   font-size: 14px;
   line-height: 1.2;
+  font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
+  font-style: normal;
   color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
