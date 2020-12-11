@@ -163,7 +163,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 658px;
+  width: 590px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
