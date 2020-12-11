@@ -91,6 +91,9 @@ body {
   letter-spacing: -0.04em;
   color: #fff;
 }
+.header-topline-logo:hover {
+  color: #c7b299;
+}
 .header-topline-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
