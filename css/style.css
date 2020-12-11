@@ -275,8 +275,8 @@ body {
   height: 11px;
   border: 2px solid #d3c1ad;
   background: transparent;
-  -webkit-transform: scale(1, 36);
-          transform: scale(1, 36);
+  -webkit-transform: scale(1.36);
+          transform: scale(1.36);
 }
 input[type="search"] {
   width: 24px;
