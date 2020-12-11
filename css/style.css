@@ -164,6 +164,10 @@ body {
   height: 73px;
   margin: 0 0 0 110px;
 }
+.header-carusel-slider-left svg:hover {
+  fill: #c7b299;
+  cursor: pointer;
+}
 .header-carusel-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,6 +243,10 @@ body {
   width: 40px;
   height: 73px;
   margin: 0 110px 0 0;
+}
+.header-carusel-slider-right svg:hover {
+  fill: #c7b299;
+  cursor: pointer;
 }
 .header-carusel-pagination {
   display: -webkit-box;
