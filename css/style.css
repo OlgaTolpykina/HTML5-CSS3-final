@@ -295,3 +295,71 @@ input[type="search"]:focus {
   background-position: right;
   border: 1px solid gray;
 }
+.main-features {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  margin: 10px;
+  padding: 10px 10px 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.features:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+}
+.features:hover .features-icon {
+  fill: #c7b299;
+}
+.features:hover .features-title {
+  color: #c7b299;
+}
+.features:hover:after {
+  background-color: #c7b299;
+}
+.features-icon {
+  display: block;
+  fill: #555555;
+  margin: 0 0 20px 0;
+}
+.features-title {
+  width: 100%;
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: #555555;
+  font-family: "railway", "Arial", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.features-txt {
+  text-align: center;
+  font-family: "montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: normal;
+  color: #8c8c8c;
+}
