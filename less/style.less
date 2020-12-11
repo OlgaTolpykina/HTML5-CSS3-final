@@ -282,6 +282,7 @@ input[type="search"]:focus {
   font-style: normal;
   font-size: 22px;
   line-height: 1.2;
+  text-transform: capitalize;
 }
 
 .features-txt {
@@ -292,4 +293,7 @@ input[type="search"]:focus {
   font-weight: 300;
   font-style: normal;
   color: #8c8c8c;
+  &::first-letter{
+    text-transform: uppercase;
+  }
 }
