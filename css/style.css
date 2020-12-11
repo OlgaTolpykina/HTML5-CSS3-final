@@ -156,9 +156,11 @@ body {
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
-  text-transform: capitalize;
   text-align: center;
   margin: 19px 0 52px 0;
+}
+.header-carusel-text-txt::first-letter {
+  text-transform: uppercase;
 }
 .header-carusel-button-getstarted {
   width: 170px;
