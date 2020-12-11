@@ -211,7 +211,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   border: none;
-  border-bottom: 3px solid #736357;
   border-radius: 3px;
   text-align: center;
   text-transform: uppercase;
@@ -219,6 +218,11 @@ body {
   background-color: #998675;
   color: #fff;
   word-break: break-all;
+}
+.header-carusel-button-getstarted:hover {
+  background-color: #fff;
+  color: #998675;
+  cursor: pointer;
 }
 .header-carusel-button-getstarted-txt {
   margin: auto;
@@ -258,7 +262,7 @@ body {
   opacity: 0.5;
   background-color: #fff;
 }
-.header-carusel-pagination-item:nth-of-type(2) {
+.header-carusel-pagination-item:hover {
   width: 15px;
   height: 15px;
   border: 2px solid #d3c1ad;

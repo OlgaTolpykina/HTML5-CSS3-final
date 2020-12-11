@@ -146,7 +146,6 @@ body {
       height: 53px;
       display: flex;
       border: none;
-      border-bottom: 3px solid #736357;
       border-radius: 3px;
       text-align: center;
       text-transform: uppercase;
@@ -154,6 +153,11 @@ body {
       background-color: #998675;
       color: #fff;
       word-break: break-all;
+      &:hover {
+        background-color: #fff;
+        color: #998675;
+        cursor: pointer;
+      }
       &-txt {
         margin: auto;
         font-family: 'railway', 'Arial', sans-serif;
@@ -185,7 +189,7 @@ body {
         margin: 0 5px;
         opacity: 0.5;
         background-color: #fff;
-        &:nth-of-type(2) {
+        &:hover {
           width: 15px;
           height: 15px;
           border: 2px solid #d3c1ad;
