@@ -252,13 +252,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 98px;
+  width: 100%;
   margin: 327px 0 0 0;
 }
 .header-carusel-pagination-item {
@@ -271,12 +271,10 @@ body {
   background-color: #fff;
 }
 .header-carusel-pagination-item:hover {
-  width: 11px;
-  height: 11px;
+  width: 15px;
+  height: 15px;
   border: 2px solid #d3c1ad;
   background: transparent;
-  -webkit-transform: scale(1, 4);
-          transform: scale(1, 4);
 }
 input[type="search"] {
   width: 24px;
