@@ -214,6 +214,9 @@ body {
 }
 .header-carusel-button-getstarted-txt {
   margin: auto;
+  font-family: 'railway', 'Arial', sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 .header-carusel-slider-right {
   display: block;
