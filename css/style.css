@@ -130,6 +130,7 @@ body {
 }
 .header-topline-button-basket svg:hover {
   fill: #c7b299;
+  cursor: pointer;
 }
 .header-topline-search {
   margin: 0 0 0 30px;
