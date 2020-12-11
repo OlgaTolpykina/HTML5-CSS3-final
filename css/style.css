@@ -113,7 +113,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.header-topline-navigation-item:nth-child(2) {
+.header-topline-navigation-item:hover {
   color: #c7b299;
 }
 .header-topline-button-basket {
