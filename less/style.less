@@ -301,7 +301,8 @@ input[type="search"]:focus {
 }
 
 .description {
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   min-height: 700px;
   background-color: #fbfaf8;
   justify-content: center;
@@ -333,6 +334,8 @@ input[type="search"]:focus {
     }
   }
   &-multiphoto {
+    display: flex;
+    align-items: flex-end;
     width: 1228px;
     min-height: 490px;
     margin: 0 auto;

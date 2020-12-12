@@ -371,7 +371,11 @@ input[type="search"]:focus {
   text-transform: uppercase;
 }
 .description {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   min-height: 700px;
   background-color: #fbfaf8;
   -webkit-box-pack: center;
@@ -411,6 +415,12 @@ input[type="search"]:focus {
   text-transform: uppercase;
 }
 .description-multiphoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 1228px;
   min-height: 490px;
   margin: 0 auto;
