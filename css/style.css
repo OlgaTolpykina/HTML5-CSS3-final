@@ -206,6 +206,9 @@ body {
   font-style: normal;
   text-transform: capitalize;
 }
+.header-carusel-text-slogan span {
+  text-transform: none;
+}
 .header-carusel-text-title {
   font-size: 52px;
   line-height: 1.2;
