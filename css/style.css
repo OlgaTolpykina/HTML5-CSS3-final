@@ -363,12 +363,15 @@ input[type="search"]:focus {
 }
 .features:hover .features-icon {
   fill: #c7b299;
+  cursor: pointer;
 }
 .features:hover .features-title {
   color: #c7b299;
+  cursor: pointer;
 }
 .features:hover:after {
   background-color: #c7b299;
+  cursor: pointer;
 }
 .features:active .features-icon {
   fill: #998675;
