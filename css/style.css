@@ -345,16 +345,16 @@ body {
   transition: width 1s ease;
   border: 2px solid #fff;
 }
-.header-topline-search-label {
+.header-topline-search_label {
   display: block;
   width: 100%;
   height: 100%;
 }
-.header-topline-search-label:hover .search-icon-form__svg {
+.header-topline-search_label:hover .search-icon-form__svg {
   fill: #c7b299;
   cursor: pointer;
 }
-.header-topline-search-label:active .search-icon-form__svg {
+.header-topline-search_label:active .search-icon-form__svg {
   fill: #998675;
   cursor: pointer;
 }
