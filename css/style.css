@@ -365,6 +365,9 @@ input[type="search"]:focus {
   fill: #c7b299;
   cursor: pointer;
 }
+.features:hover .features-txt {
+  cursor: pointer;
+}
 .features:hover .features-title {
   color: #c7b299;
   cursor: pointer;
