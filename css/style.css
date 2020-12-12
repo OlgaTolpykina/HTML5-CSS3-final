@@ -469,6 +469,7 @@ input[type="search"]:focus {
   border: none;
   border-radius: 3px;
   background-color: #998675;
+  color: #fff;
 }
 .ad-button-txt {
   font-family: 'raleway', 'Arial', sans-serif;
@@ -477,7 +478,6 @@ input[type="search"]:focus {
   font-size: 14px;
   line-height: 23px;
   text-transform: uppercase;
-  color: #fff;
 }
 .ad-button:hover {
   background-color: #fff;
@@ -486,6 +486,5 @@ input[type="search"]:focus {
 }
 .ad-button:active {
   background-color: #fff;
-  color: #998675;
-  border-bottom: 2px solid #736357;
+  color: #c7b299;
 }
