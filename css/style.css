@@ -382,7 +382,10 @@ input[type="search"]:focus {
           box-sizing: border-box;
 }
 .description-title {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -395,17 +398,17 @@ input[type="search"]:focus {
   color: #555555;
 }
 .description-txt {
-  display: block;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
+  margin: 24px 515px 40px 515px;
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
   line-height: 28px;
-  text-transform: capitalize;
   color: #8c8c8c;
+}
+.description-txt::first-letter {
+  text-transform: uppercase;
 }
 .description-multiphoto {
   width: 100%;
