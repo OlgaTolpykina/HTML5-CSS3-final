@@ -297,6 +297,18 @@ input[type="search"]:focus {
   background-color: #c7b299;
 }
 
+.features:active .features-icon {
+  fill: #998675;
+}
+
+.features:active .features-title {
+  color: #998675;
+}
+
+.features:active:after {
+  background-color: #998675;
+}
+
 .features-icon {
   display: block;
   fill: #555555;
@@ -434,7 +446,6 @@ input[type="search"]:focus {
       cursor: pointer;
     }
     &:active{
-      background-color: #fff;
       color: #c7b299;
     }
   }
