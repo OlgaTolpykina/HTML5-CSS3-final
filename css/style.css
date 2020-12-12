@@ -411,7 +411,7 @@ input[type="search"]:focus {
   text-transform: uppercase;
 }
 .description-multiphoto {
-  width: 100%;
+  width: 1540px;
   min-height: 490px;
   background-image: url(../img/description_left.png), url(../img/description_center.png), url(../img/description_right.png);
   background-size: 60%, 40%, 40%;
