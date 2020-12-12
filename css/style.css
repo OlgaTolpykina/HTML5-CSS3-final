@@ -127,6 +127,10 @@ body {
 }
 .header-topline-navigation-item:hover {
   color: #c7b299;
+  cursor: pointer;
+}
+.header-topline-navigation-item:active {
+  color: #998675;
 }
 .header-topline-button-basket {
   border: none;
@@ -143,6 +147,9 @@ body {
 .header-topline-button-basket svg:hover {
   fill: #c7b299;
   cursor: pointer;
+}
+.header-topline-button-basket svg:active {
+  fill: #998675;
 }
 .header-topline-search {
   margin: 0 0 0 30px;
@@ -174,8 +181,11 @@ body {
   margin: 0 0 0 110px;
 }
 .header-carusel-slider-left svg:hover {
-  fill: #c7b299;
+  fill: #998675;
   cursor: pointer;
+}
+.header-carusel-slider-left svg:active {
+  fill: #998675;
 }
 .header-carusel-text {
   display: -webkit-box;
@@ -237,6 +247,10 @@ body {
   color: #998675;
   cursor: pointer;
 }
+.header-carusel-button-getstarted:active {
+  background-color: #fff;
+  color: #c7b299;
+}
 .header-carusel-button-getstarted-txt {
   margin: auto;
   font-family: 'raleway', 'Arial', sans-serif;
@@ -256,6 +270,9 @@ body {
 .header-carusel-slider-right svg:hover {
   fill: #c7b299;
   cursor: pointer;
+}
+.header-carusel-slider-right svg:active {
+  fill: #998675;
 }
 .header-carusel-pagination {
   display: -webkit-box;
@@ -285,10 +302,13 @@ body {
 .header-carusel-pagination-item:hover {
   width: 11px;
   height: 11px;
-  border: 3px solid #d3c1ad;
+  border: 2px solid #d3c1ad;
   background: transparent;
   -webkit-transform: scale(1.36);
           transform: scale(1.36);
+}
+.header-carusel-pagination-item:active {
+  border: 2px solid #998675;
 }
 input[type="search"] {
   width: 24px;

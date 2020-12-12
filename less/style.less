@@ -75,6 +75,10 @@ body {
       }
       &-item:hover {
         color: #c7b299;
+        cursor: pointer;
+      }
+      &-item:active {
+        color: #998675;
       }
     }
     &-button-basket {
@@ -92,6 +96,9 @@ body {
     &-button-basket svg:hover {
       fill: #c7b299;
       cursor: pointer;
+    }
+    &-button-basket svg:active {
+      fill: #998675;
     }
     &-search {
       margin: 0 0 0 30px;
@@ -115,8 +122,11 @@ body {
       height: 73px;
       margin: 0 0 0 110px;
       &:hover {
-        fill: #c7b299;
+        fill: #998675;
         cursor: pointer;
+      }
+      &:active {
+        fill: #998675;
       }
     }
     &-text {
@@ -171,6 +181,10 @@ body {
         color: #998675;
         cursor: pointer;
       }
+      &:active{
+        background-color: #fff;
+        color: #c7b299;
+      }
       &-txt {
         margin: auto;
         font-family: 'raleway', 'Arial', sans-serif;
@@ -190,6 +204,9 @@ body {
       &:hover {
         fill: #c7b299;
         cursor: pointer;
+      }
+      &:active {
+        fill: #998675;
       }
     }
     &-pagination {
@@ -211,9 +228,12 @@ body {
         &:hover {
           width: 11px;
           height: 11px;
-          border: 3px solid #d3c1ad;
+          border: 2px solid #d3c1ad;
           background: transparent;
           transform: scale(1.36);
+        }
+        &:active {
+          border: 2px solid #998675;
         }
       }
     }
