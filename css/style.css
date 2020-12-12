@@ -413,6 +413,7 @@ input[type="search"]:focus {
 .description-multiphoto {
   width: 1540px;
   min-height: 490px;
+  margin: 0 auto;
   background-image: url(../img/description_center.png), url(../img/description_left.png), url(../img/description_right.png);
   background-repeat: no-repeat;
   background-position: bottom center, bottom left, bottom right;
