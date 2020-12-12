@@ -384,6 +384,7 @@ input[type="search"]:focus {
   &-button {
     width: 170px;
     min-height: 50px;
+    border: none;
     border-radius: 3px;
     background-color: #998675;
     &-txt {
@@ -394,6 +395,16 @@ input[type="search"]:focus {
       line-height: 23px;
       text-transform: uppercase;
       color: #fff;
+    }
+    &:hover {
+      background-color: #fff;
+      color: #998675;
+      cursor: pointer;
+    }
+    &:active{
+      background-color: #fff;
+      color: #998675;
+      border-bottom: 2px solid #736357;
     }
   }
 }
