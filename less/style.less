@@ -343,3 +343,52 @@ input[type="search"]:focus {
     background-position: bottom center, bottom left, bottom right;
   }
 }
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 150px;
+  background-color: #f4f5f8;
+  background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+  &-wrapper {
+
+  }
+  &-title {
+    font-family: 'raleway', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #fff;
+    & span {
+      color: #c7b299
+    }
+  }
+  &-txt {
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #615855;
+    text-transform: capitalize;
+    & span {
+      text-transform: none;
+    }
+  }
+  &-button {
+
+    &-txt {
+      font-family: 'raleway', 'Arial', sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 23px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}
