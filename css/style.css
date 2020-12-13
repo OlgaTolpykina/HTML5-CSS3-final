@@ -578,8 +578,14 @@ body {
   color: #c7b299;
 }
 .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 1162px;
-  padding: 80px 376px 80px 376px;
+  padding: 80px 375px 80px 375px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -700,13 +706,14 @@ body {
   width: 170px;
   min-height: 50px;
   background-color: #998675;
+  border: none;
   border-radius: 3px;
   font-size: 14px;
   line-height: 23px;
   font-family: 'raleway', 'Arial', sans-serif;
   font-weight: 800;
   font-style: normal;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #fff;
 }
 .projects-button:hover {
