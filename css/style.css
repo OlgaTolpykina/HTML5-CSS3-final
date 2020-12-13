@@ -668,17 +668,22 @@ body {
   margin: 0 0 30px 0;
 }
 .projects-gallery-item-img {
+  display: block;
   width: 370px;
   height: 237px;
 }
 .projects-gallery-item-description {
+  padding: 30px 0 30px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: left;
   min-height: 100px;
   background-color: #fbfaf8;
   position: relative;
 }
 .projects-gallery-item-description-title {
   display: block;
-  margin: 30px 0 14px 28px;
+  margin: 0;
   font-size: 20px;
   line-height: 1.2;
   text-transform: capitalize;
@@ -689,7 +694,7 @@ body {
 }
 .projects-gallery-item-description-subtitle {
   display: block;
-  margin: 0 0 27px 30px;
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
   text-transform: capitalize;
@@ -703,7 +708,7 @@ body {
   position: absolute;
   border: 15px solid transparent;
   border-bottom: 10px solid #fbfaf8;
-  top: -8px;
+  top: -25px;
   left: 20px;
 }
 .projects-button {
@@ -722,6 +727,7 @@ body {
 }
 .projects-button:hover {
   background-color: #fff;
+  border: #998675;
   color: #998675;
   cursor: pointer;
 }
