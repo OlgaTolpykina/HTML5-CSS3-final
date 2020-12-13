@@ -494,11 +494,14 @@ body {
 }
 
 .projects {
+  display: flex;
+  justify-content: center;
   min-height: 1162px;
   padding: 80px 375px 80px 375px;
   box-sizing: border-box;
   &-title {
     display: block;
+    width: 100%;
     text-align: center;
     text-transform: capitalize;
     font-size: 30px;
@@ -521,6 +524,7 @@ body {
   &-categories {
     display: flex;
     justify-content: center;
+    width: 100%;
     margin: 0 0 40px 0;
     &-button {
       width: 120px;
@@ -536,7 +540,7 @@ body {
       font-style: normal;
       color: #8c8c8c;
       &:nth-child(5) {
-        margin: 0;
+        margin: 0 0 40px 0;
       }
       &:hover {
         background-color: #8c8c8c;
