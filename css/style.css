@@ -714,11 +714,9 @@ body {
   left: 20px;
 }
 .projects-gallery-link {
-  background-image: url(../img/projects-link.svg);
   left: 38%;
 }
 .projects-gallery-search {
-  background-image: url(../img/projects-lupa.svg);
   right: 40%;
 }
 .projects-gallery-link,
