@@ -723,10 +723,10 @@ body {
   width: 26px;
   height: 26px;
 }
-.projects-gallery-button-search {
+.projects-gallery-button-link {
   left: 38%;
 }
-.projects-gallery-button-link {
+.projects-gallery-button-search {
   right: 40%;
 }
 .projects-gallery-item:hover .projects-gallery-item-description {
@@ -762,8 +762,13 @@ body {
   fill: #fff;
 }
 .projects-gallery-item:hover .projects-gallery-search:hover {
-  display: block;
   fill: #c7b299;
+}
+.projects-gallery-item:hover .projects-gallery-link:active {
+  fill: #998675;
+}
+.projects-gallery-item:hover .projects-gallery-search:active {
+  fill: #998675;
 }
 .projects-button {
   width: 170px;
