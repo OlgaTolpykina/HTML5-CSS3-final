@@ -713,7 +713,14 @@ body {
   top: -25px;
   left: 20px;
 }
-.projects-gallery-button {
+.projects-gallery-link {
+  left: 38%;
+}
+.projects-gallery-search {
+  right: 40%;
+}
+.projects-gallery-link,
+.projects-gallery-search {
   position: absolute;
   display: none;
   width: 26px;
@@ -721,12 +728,6 @@ body {
   border: none;
   background-color: transparent;
   top: 110px;
-}
-.projects-gallery-link {
-  left: 38%;
-}
-.projects-gallery-search {
-  right: 40%;
 }
 .projects-gallery-item:hover .projects-gallery-item-description {
   background-color: #362f2d;
