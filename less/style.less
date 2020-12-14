@@ -60,6 +60,7 @@ body {
     }
     &-navigation {
       display: flex;
+      flex-wrap: wrap;
       &-item {
         display: flex;
         margin: 0 30px 0 0;
@@ -72,6 +73,7 @@ body {
         font-style: normal;
         color: #fff;
         align-items: center;
+        text-align: center;
       }
       &-item:hover {
         color: #c7b299;
@@ -173,6 +175,7 @@ body {
       display: flex;
       border: none;
       border-radius: 3px;
+      outline: none;
       text-align: center;
       text-transform: uppercase;
       text-decoration: none;
@@ -472,8 +475,10 @@ body {
     min-height: 50px;
     border: none;
     border-radius: 3px;
+    outline: none;
     background-color: #998675;
     color: #fff;
+    word-break: break-all;
     &-txt {
       font-family: 'raleway', 'Arial', sans-serif;
       font-weight: 800;
@@ -532,6 +537,7 @@ body {
       min-height: 32px;
       border: 1px solid #ebebeb;
       border-radius: 3px;
+      outline: none;
       margin: 0 10px 40px 0;
       box-sizing: border-box;
       text-transform: capitalize;
@@ -541,6 +547,7 @@ body {
       font-weight: 300;
       font-style: normal;
       color: #8c8c8c;
+      word-break: break-all;
       &:nth-child(5) {
         margin: 0 0 40px 0;
       }
@@ -615,6 +622,7 @@ body {
     &-button-search, &-button-link {
       position: absolute;
       border: none;
+      outline: none;
       background-color: transparent;
       top: 110px;
       display: none;
@@ -674,6 +682,7 @@ body {
     background-color: #998675;
     border: none;
     border-radius: 3px;
+    outline: none;
     font-size: 14px;
     line-height: 23px;
     font-family: 'raleway', 'Arial', sans-serif;
@@ -681,6 +690,7 @@ body {
     font-style: normal;
     text-transform: uppercase;
     color: #fff;
+    word-break: break-all;
     &:hover {
       background-color: #fff;
       border: 3px solid #998675;

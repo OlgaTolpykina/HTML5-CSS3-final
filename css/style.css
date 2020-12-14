@@ -107,6 +107,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .header-topline-navigation-item {
   display: -webkit-box;
@@ -124,6 +126,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 .header-topline-navigation-item:hover {
   color: #c7b299;
@@ -238,6 +241,7 @@ body {
   display: flex;
   border: none;
   border-radius: 3px;
+  outline: none;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -558,8 +562,10 @@ body {
   min-height: 50px;
   border: none;
   border-radius: 3px;
+  outline: none;
   background-color: #998675;
   color: #fff;
+  word-break: break-all;
 }
 .ad-button-txt {
   font-family: 'raleway', 'Arial', sans-serif;
@@ -628,6 +634,7 @@ body {
   min-height: 32px;
   border: 1px solid #ebebeb;
   border-radius: 3px;
+  outline: none;
   margin: 0 10px 40px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -638,6 +645,7 @@ body {
   font-weight: 300;
   font-style: normal;
   color: #8c8c8c;
+  word-break: break-all;
 }
 .projects-categories-button:nth-child(5) {
   margin: 0 0 40px 0;
@@ -717,6 +725,7 @@ body {
 .projects-gallery-button-link {
   position: absolute;
   border: none;
+  outline: none;
   background-color: transparent;
   top: 110px;
   display: none;
@@ -776,6 +785,7 @@ body {
   background-color: #998675;
   border: none;
   border-radius: 3px;
+  outline: none;
   font-size: 14px;
   line-height: 23px;
   font-family: 'raleway', 'Arial', sans-serif;
@@ -783,6 +793,7 @@ body {
   font-style: normal;
   text-transform: uppercase;
   color: #fff;
+  word-break: break-all;
 }
 .projects-button:hover {
   background-color: #fff;
