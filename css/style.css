@@ -712,6 +712,23 @@ body {
   top: -25px;
   left: 20px;
 }
+.projects-gallery-link {
+  background-image: url(../img/projects-link.svg);
+  left: 35%;
+}
+.projects-gallery-search {
+  background-image: url(../img/projects-lupa.svg);
+  right: 35%;
+}
+.projects-gallery-link,
+.projects-gallery-search {
+  position: absolute;
+  display: none;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-color: transparent;
+}
 .projects-button {
   width: 170px;
   min-height: 50px;
