@@ -723,6 +723,12 @@ body {
   width: 26px;
   height: 26px;
 }
+.projects-gallery-button-search {
+  left: 38%;
+}
+.projects-gallery-button-link {
+  right: 40%;
+}
 .projects-gallery-item:hover .projects-gallery-item-description {
   background-color: #362f2d;
 }
