@@ -713,6 +713,9 @@ body {
   top: -25px;
   left: 20px;
 }
+.projects-gallery-button {
+  display: none;
+}
 .projects-gallery-link {
   left: 38%;
 }
