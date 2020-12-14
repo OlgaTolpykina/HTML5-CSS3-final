@@ -713,21 +713,13 @@ body {
   top: -25px;
   left: 20px;
 }
-.projects-gallery-button {
+.projects-gallery-button-search,
+.projects-gallery-button-link {
   position: absolute;
   border: none;
   background-color: transparent;
   top: 110px;
   display: none;
-}
-.projects-gallery-link {
-  left: 38%;
-}
-.projects-gallery-search {
-  right: 40%;
-}
-.projects-gallery-link,
-.projects-gallery-search {
   width: 26px;
   height: 26px;
 }
