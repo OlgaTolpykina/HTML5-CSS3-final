@@ -741,9 +741,9 @@ body {
   color: #fff;
 }
 .projects-gallery-item:hover .projects-gallery-item-description-subtitle {
-  background-color: #c7b299;
+  color: #c7b299;
 }
-.projects-gallery-item:hover .projects-gallery-img {
+.projects-gallery-item:hover .projects-gallery-item-img {
   -webkit-filter: brightness(40%);
           filter: brightness(40%);
 }
