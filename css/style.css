@@ -746,11 +746,15 @@ body {
           filter: brightness(40%);
 }
 .projects-gallery-item:hover .projects-gallery-link {
-  display: block;
   fill: #fff;
 }
-.projects-gallery-item:hover .projects-gallery-link:hover {
+.projects-gallery-item:hover .projects-gallery-button-link {
   display: block;
+}
+.projects-gallery-item:hover .projects-gallery-button-search {
+  display: block;
+}
+.projects-gallery-item:hover .projects-gallery-link:hover {
   fill: #c7b299;
 }
 .projects-gallery-item:hover .projects-gallery-search {
