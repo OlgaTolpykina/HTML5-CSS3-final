@@ -564,6 +564,7 @@ body {
     flex-wrap: wrap;
     &-item {
       margin: 0 30px 30px 0;
+      position: relative;
       &:nth-child(3n) {
         margin: 0 0 30px 0;
       }
@@ -601,7 +602,7 @@ body {
           font-style: normal;
           color: #d1d1d1;
         }
-        &:before {
+        &::before {
           content: "";
           position: absolute;
           border: 15px solid transparent;
@@ -613,11 +614,11 @@ body {
     }
     &-link {
       background-image: url(../img/projects-link.svg);
-      left: 35%;
+      left: 38%;
     }
     &-search {
       background-image: url(../img/projects-lupa.svg);
-      right: 35%;
+      right: 40%;
     }
     &-link, &-search {
       position: absolute;
@@ -626,6 +627,38 @@ body {
       height: 26px;
       border: none;
       background-color: transparent;
+      top: 110px;
+    }
+    &-item:hover &-item-description {
+      background-color: #362f2d;
+    }
+    &-item:hover &-item-description::before {
+      border-bottom: 10px solid #362f2d;
+    }
+    &-item:hover &-item-description-title {
+      color: #fff;
+    }
+    &-item:hover &-item-description-subtitle {
+      background-color: #c7b299;
+    }
+    &-item:hover &-img {
+      filter: brightness(40%);
+    }
+    &-item:hover &-link {
+      display: block;
+      fill: #fff;
+    }
+    &-item:hover &-link:hover {
+      display: block;
+      fill: #c7b299;
+    }
+    &-item:hover &-search {
+      display: block;
+      fill: #fff;
+    }
+    &-item:hover &-search:hover {
+      display: block;
+      fill: #c7b299;
     }
   }
   &-button {

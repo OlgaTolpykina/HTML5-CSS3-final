@@ -664,6 +664,7 @@ body {
 }
 .projects-gallery-item {
   margin: 0 30px 30px 0;
+  position: relative;
 }
 .projects-gallery-item:nth-child(3n) {
   margin: 0 0 30px 0;
@@ -704,7 +705,7 @@ body {
   font-style: normal;
   color: #d1d1d1;
 }
-.projects-gallery-item-description:before {
+.projects-gallery-item-description::before {
   content: "";
   position: absolute;
   border: 15px solid transparent;
@@ -714,11 +715,11 @@ body {
 }
 .projects-gallery-link {
   background-image: url(../img/projects-link.svg);
-  left: 35%;
+  left: 38%;
 }
 .projects-gallery-search {
   background-image: url(../img/projects-lupa.svg);
-  right: 35%;
+  right: 40%;
 }
 .projects-gallery-link,
 .projects-gallery-search {
@@ -728,6 +729,39 @@ body {
   height: 26px;
   border: none;
   background-color: transparent;
+  top: 110px;
+}
+.projects-gallery-item:hover .projects-gallery-item-description {
+  background-color: #362f2d;
+}
+.projects-gallery-item:hover .projects-gallery-item-description::before {
+  border-bottom: 10px solid #362f2d;
+}
+.projects-gallery-item:hover .projects-gallery-item-description-title {
+  color: #fff;
+}
+.projects-gallery-item:hover .projects-gallery-item-description-subtitle {
+  background-color: #c7b299;
+}
+.projects-gallery-item:hover .projects-gallery-img {
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+.projects-gallery-item:hover .projects-gallery-link {
+  display: block;
+  fill: #fff;
+}
+.projects-gallery-item:hover .projects-gallery-link:hover {
+  display: block;
+  fill: #c7b299;
+}
+.projects-gallery-item:hover .projects-gallery-search {
+  display: block;
+  fill: #fff;
+}
+.projects-gallery-item:hover .projects-gallery-search:hover {
+  display: block;
+  fill: #c7b299;
 }
 .projects-button {
   width: 170px;
