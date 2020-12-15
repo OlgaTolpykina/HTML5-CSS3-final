@@ -925,10 +925,14 @@ body {
 }
 .mobile-content-list {
   list-style: none;
-  margin: 0 0 0 40px;
+  padding: 0;
+  margin: 0;
   line-height: 32px;
 }
 .mobile-content-list-item {
+  padding: 0 0 0 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 16px;
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
@@ -936,9 +940,12 @@ body {
   color: #8c8c8c;
 }
 .mobile-content-list-item::before {
-  content: ">";
+  content: "";
   width: 21px;
   height: 21px;
+  background-image: url(../img/small_arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 30px 0 0;
   border-radius: 50%;
   background-color: #c7b299;
