@@ -933,6 +933,7 @@ body {
   padding: 0 0 0 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
   font-size: 16px;
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
@@ -943,13 +944,13 @@ body {
   content: "";
   width: 21px;
   height: 21px;
+  position: absolute;
+  left: 50px;
+  top: 5px;
   background-image: url(../img/small_arrow.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 30px 0 0;
-  border-radius: 50%;
-  background-color: #c7b299;
-  text-align: center;
+  background-size: 100%;
+  background-color: #fff;
   line-height: 21px;
   color: #fff;
 }
