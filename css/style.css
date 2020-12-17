@@ -1053,8 +1053,11 @@ body {
 }
 .posts-subtitle {
   display: block;
-  max-width: 757px;
+  width: 100%;
   margin: 0 0 40px 0;
+  padding: 0 207px 0 207px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 16px;
   line-height: 28px;
   font-family: 'montserrat', 'Arial', sans-serif;
