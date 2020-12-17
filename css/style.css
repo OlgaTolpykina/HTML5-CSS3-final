@@ -1131,14 +1131,15 @@ body {
   font-style: normal;
   font-size: 12px;
   line-height: 20px;
+  text-transform: capitalize;
   color: #fff;
 }
-.posts-item-date-pagination {
+.posts-item-pagination {
   position: absolute;
   left: 134px;
   bottom: 22px;
 }
-.posts-item-date-pagination-item {
+.posts-item-pagination-item {
   display: block;
   width: 11px;
   height: 11px;
@@ -1150,7 +1151,7 @@ body {
   opacity: 0.3;
   background-color: #fff;
 }
-.posts-item-date-pagination-item:hover {
+.posts-item-pagination-item:hover {
   width: 11px;
   height: 11px;
   border: 2px solid #d3c1ad;
@@ -1158,6 +1159,6 @@ body {
   -webkit-transform: scale(1.36);
           transform: scale(1.36);
 }
-.posts-item-date-pagination-item:active {
+.posts-item-pagination-item:active {
   border: 2px solid #998675;
 }
