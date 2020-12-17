@@ -1165,3 +1165,46 @@ body {
 .posts-item-pagination-item:active {
   border: 2px solid #998675;
 }
+.posts-item-content {
+  padding: 30px 45px 30px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.posts-item-content-title {
+  margin: 0 0 20px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'raleway', 'Arial', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #555555;
+}
+.posts-item-content-subtitle {
+  margin: 0 0 30px 0;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'montserrat', 'Arial', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #c7b299;
+}
+.posts-item-content-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'montserrat', 'Arial', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #c7b299;
+  position: relative;
+}
+.posts-item-content-link::after {
+  content: '';
+  position: absolute;
+  margin: 0 0 0 10px;
+  border: 5px solid transparent;
+  border-left: 8px solid #c7b299;
+  top: 5px;
+}
