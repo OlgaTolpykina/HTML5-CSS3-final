@@ -47,6 +47,13 @@
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto-regular.eot');
+  src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-regular.woff2') format('woff2'), url('../fonts/roboto-regular.woff') format('woff'), url('../fonts/roboto-regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
 body {
   margin: 0;
 }
@@ -1109,4 +1116,48 @@ body {
   font-weight: 300;
   font-style: normal;
   color: #fff;
+}
+.posts-item-date-month {
+  display: block;
+  width: 50px;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #252525;
+  border-radius: 0 0 3px 3px;
+  font-family: 'roboto', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+}
+.posts-item-date-pagination {
+  position: absolute;
+  left: 134px;
+  bottom: 22px;
+}
+.posts-item-date-pagination-item {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0 7px;
+  opacity: 0.3;
+  background-color: #fff;
+}
+.posts-item-date-pagination-item:hover {
+  width: 11px;
+  height: 11px;
+  border: 2px solid #d3c1ad;
+  background: transparent;
+  -webkit-transform: scale(1.36);
+          transform: scale(1.36);
+}
+.posts-item-date-pagination-item:active {
+  border: 2px solid #998675;
 }
