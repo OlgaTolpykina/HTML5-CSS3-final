@@ -1135,9 +1135,12 @@ body {
   color: #fff;
 }
 .posts-item-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   left: 134px;
-  bottom: 22px;
+  top: 185px;
 }
 .posts-item-pagination-item {
   display: block;
