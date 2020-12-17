@@ -1190,7 +1190,7 @@ body {
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #c7b299;
+  color: #8c8c8c;
 }
 .posts-item-content-link {
   display: block;
@@ -1201,7 +1201,7 @@ body {
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #8c8c8c;
+  color: #c7b299;
   position: relative;
 }
 .posts-item-content-link::after {
