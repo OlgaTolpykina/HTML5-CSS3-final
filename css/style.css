@@ -1256,3 +1256,23 @@ body {
 .posts-btn:active {
   fill: #998675;
 }
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 489px;
+  background-image: url('../img/bg_partners.png');
+  background-size: cover;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 140px 404px 140px 406px;
+}
+.partners-logo {
+  text-decoration: none;
+  outline: none;
+}
