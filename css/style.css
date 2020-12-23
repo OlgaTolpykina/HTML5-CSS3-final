@@ -1223,6 +1223,10 @@ body {
 .posts-item:hover {
   background-color: #362f2d;
 }
+.posts-item:hover .posts-item-img {
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
 .posts-item:hover .posts-item-content-title {
   color: #c7b299;
 }
