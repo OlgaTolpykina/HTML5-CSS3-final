@@ -1217,6 +1217,9 @@ body {
 .posts-item-content-link:active {
   color: #998675;
 }
+.posts-item-content-link:active .posts-item-content-link::after {
+  border-left: 8px solid #998675;
+}
 .posts-item:hover {
   background-color: #362f2d;
 }
