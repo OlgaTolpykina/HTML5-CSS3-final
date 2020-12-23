@@ -1211,13 +1211,13 @@ body {
   top: 4px;
   opacity: 0;
 }
-.posts-item-content-link:hover .posts-item-content-link::after {
+.posts-item-content-link:hover .posts-item-content-link:after {
   opacity: 1;
 }
 .posts-item-content-link:active {
   color: #998675;
 }
-.posts-item-content-link:active .posts-item-content-link::after {
+.posts-item-content-link:active .posts-item-content-link:after {
   border-left: 8px solid #998675;
 }
 .posts-item:hover {
