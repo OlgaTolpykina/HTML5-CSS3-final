@@ -1045,6 +1045,15 @@ body {
           border: 5px solid transparent;
           border-left: 8px solid #c7b299;
           top: 4px;
+          opacity: 0;
+        }
+        &:hover {
+          &::after {
+            opacity: 1;
+          }
+        }
+        &:active {
+          color: #998675;
         }
       }
     }

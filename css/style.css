@@ -1209,6 +1209,13 @@ body {
   border: 5px solid transparent;
   border-left: 8px solid #c7b299;
   top: 4px;
+  opacity: 0;
+}
+.posts-item-content-link:hover::after {
+  opacity: 1;
+}
+.posts-item-content-link:active {
+  color: #998675;
 }
 .posts-item:hover {
   background-color: #362f2d;
