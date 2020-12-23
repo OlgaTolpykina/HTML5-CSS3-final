@@ -1211,7 +1211,7 @@ body {
   top: 4px;
   opacity: 0;
 }
-.posts-item-content-link:hover::after {
+.posts-item-content-link:hover .posts-item-content-link::after {
   opacity: 1;
 }
 .posts-item-content-link:active {
