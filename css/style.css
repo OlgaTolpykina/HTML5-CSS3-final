@@ -1245,3 +1245,9 @@ body {
   height: 22px;
   fill: #d1d1d1;
 }
+.posts-btn:hover {
+  fill: #c7b299;
+}
+.posts-btn:active {
+  fill: #998675;
+}
