@@ -1271,6 +1271,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 140px 404px 140px 406px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .partners-logo {
   text-decoration: none;
