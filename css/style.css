@@ -1222,7 +1222,7 @@ body {
 .posts-item:hover .posts-item-date-day {
   background-color: #c7b299;
 }
-.posts-item:hover .posts-item-date-day {
+.posts-item:hover .posts-item-date-month {
   background-color: #a48d72;
 }
 .posts-btn {
