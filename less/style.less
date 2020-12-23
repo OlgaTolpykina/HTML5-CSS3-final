@@ -925,9 +925,7 @@ body {
   &-item {
     display: flex;
     flex-wrap: wrap;
-    width: 370px;
-    height: 395px;
-    border: 1px solid #f8f8f8;
+    max-width: 370px;
     margin: 0 30px 40px 0;
     box-sizing: border-box;
     position: relative;
@@ -1049,6 +1047,21 @@ body {
           top: 4px;
         }
       }
+    }
+    &:hover {
+      background-color: #362f2d;
+    }
+    &:hover &-content-title {
+      color: #c7b299;
+    }
+    &:hover &-content-subtitle {
+      color: #fff;
+    }
+    &:hover &-date-day {
+      background-color: #c7b299;
+    }
+    &:hover &-date-day {
+      background-color: #a48d72;
     }
   }
   &-btn {
