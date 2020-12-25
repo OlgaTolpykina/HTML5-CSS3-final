@@ -1500,3 +1500,17 @@ body {
   font-style: normal;
   color: #363636;
 }
+.footer-info-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 270px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-info-widget-img {
+  margin: 0 0 10px 0;
+}
