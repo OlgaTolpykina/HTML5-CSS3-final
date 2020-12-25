@@ -1511,6 +1511,16 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.footer-info-widget-title {
+  margin: 0 0 26px 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'raleway', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
 .footer-info-widget-img {
   margin: 0 0 10px 0;
 }
