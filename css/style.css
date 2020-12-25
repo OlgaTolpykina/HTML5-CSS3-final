@@ -1411,6 +1411,8 @@ body {
   font-family: 'raleway', 'Arial', sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: #fff;
+  margin: 0 0 30px 0;
 }
 .footer-info-posts-item {
   text-decoration: none;
@@ -1421,6 +1423,7 @@ body {
           box-sizing: border-box;
 }
 .footer-info-posts-item-data {
+  display: block;
   font-size: 12px;
   line-height: 20px;
   font-family: 'montserrat', 'Arial', sans-serif;
