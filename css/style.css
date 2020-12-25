@@ -1451,3 +1451,49 @@ body {
 .footer-info-posts-item:active .footer-info-posts-item-txt {
   color: #998675;
 }
+.footer-info-twitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px 0 0 0;
+  max-width: 267px;
+}
+.footer-info-twitter-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'raleway', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+.footer-info-twitter-content {
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #252525;
+  margin: 0 0 15px 0;
+  padding: 0 0 20px 0;
+}
+.footer-info-twitter-content-txt {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'montserrat', 'Arial', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #00bff3;
+}
+.footer-info-twitter-content-link {
+  text-decoration: none;
+  color: #555555;
+}
+.footer-info-twitter-content-time {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: 'montserrat', 'Arial', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #363636;
+}
