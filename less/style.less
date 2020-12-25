@@ -1124,4 +1124,42 @@ body {
   background-color: #191919;
   padding: 80px 375px 80px 375px;
   box-sizing: border-box;
+  &-brand {
+    margin: 0;
+    max-width: 258px;
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      text-transform: capitalize;
+      &-icon {
+        fill: #fff;
+        width: 64px;
+        height: 56px;
+      }
+      &-txt {
+        margin: 0;
+        font-size: 34px;
+        line-height: 1.2;
+        font-family: 'raleway', 'Arial', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.04em;
+        color: #fff;
+      }
+      &:hover &-txt {
+        color: #c7b299;
+      }
+      &:hover &-icon {
+        fill: #c7b299;
+      }
+      &:active &-txt {
+        color: #998675;
+      }
+      &:active &-icon {
+        fill: #998675;
+      }
+    }  
+  }
 }
