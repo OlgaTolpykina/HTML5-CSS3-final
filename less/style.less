@@ -1188,9 +1188,18 @@ body {
           position: absolute;
           margin: 0 0 0 10px;
           border: 5px solid transparent;
-          border-left: 8px solid #c7b299;
+          border-left: 8px solid #d1d1d1;
           top: 4px;
           opacity: 0;
+        }
+        &:hover::after {
+            opacity: 1;
+        }
+        &:active {
+          color: #998675;
+        }
+        &:active::after {
+          border-left: 8px solid #998675;
         }
       }
     }
