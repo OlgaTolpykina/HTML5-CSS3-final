@@ -48,6 +48,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-bold.eot');
+  src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-bold.woff2') format('woff2'), url('../fonts/raleway-bold.woff') format('woff'), url('../fonts/raleway-bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
   font-family: 'roboto';
   src: url('../fonts/roboto-regular.eot');
   src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-regular.woff2') format('woff2'), url('../fonts/roboto-regular.woff') format('woff'), url('../fonts/roboto-regular.ttf') format('ttf');
@@ -1387,4 +1394,57 @@ body {
 }
 .footer-info-brand-txt-link:active::after {
   border-left: 8px solid #998675;
+}
+.footer-info-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  max-width: 260px;
+}
+.footer-info-posts-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'raleway', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.footer-info-posts-item {
+  text-decoration: none;
+  margin: 0 0 20px 0;
+  border-bottom: 2px solid #252525;
+  padding: 0 0 20px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.footer-info-posts-item-data {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: 'montserrat', 'Arial', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #363636;
+}
+.footer-info-posts-item-txt {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'montserrat', 'Arial', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #555555;
+}
+.footer-info-posts-item:hover .footer-info-posts-item-data {
+  color: #fff;
+}
+.footer-info-posts-item:hover .footer-info-posts-item-txt {
+  color: #c7b299;
+}
+.footer-info-posts-item:active .footer-info-posts-item-data {
+  color: #c7b299;
+}
+.footer-info-posts-item:active .footer-info-posts-item-txt {
+  color: #998675;
 }
