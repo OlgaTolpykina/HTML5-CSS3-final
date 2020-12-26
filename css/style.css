@@ -1559,6 +1559,7 @@ body {
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: #555555;
 }
 .footer-links-block-link {
   display: block;
@@ -1569,4 +1570,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #555555;
+}
+.footer-links-block-link:nth-child(1) {
+  color: #959595;
 }
