@@ -1561,6 +1561,9 @@ body {
   font-style: normal;
   color: #555555;
 }
+.footer-links-block-txt {
+  display: block;
+}
 .footer-links-block-link {
   display: block;
   text-decoration: none;
