@@ -1573,6 +1573,12 @@ body {
   text-decoration: none;
   color: #959595;
 }
+.footer-links-block-brandlink:hover {
+  color: #c7b299;
+}
+.footer-links-block-brandlink:active {
+  color: #998675;
+}
 .footer-links-block-link {
   display: block;
   text-decoration: none;
@@ -1584,6 +1590,9 @@ body {
   color: #555555;
   text-transform: capitalize;
 }
-.brand-link {
-  color: #959595;
+.footer-links-block-link:hover {
+  color: #c7b299;
+}
+.footer-links-block-link:active {
+  color: #998675;
 }
