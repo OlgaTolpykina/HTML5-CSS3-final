@@ -1571,6 +1571,6 @@ body {
           box-sizing: border-box;
   color: #555555;
 }
-.footer-links-block-link:nth-child(2) {
+.brand-link {
   color: #959595;
 }
