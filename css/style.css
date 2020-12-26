@@ -1547,7 +1547,6 @@ body {
   padding: 45px 375px 50px 375px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  text-transform: capitalize;
 }
 .footer-links-block {
   display: -webkit-box;
@@ -1563,6 +1562,12 @@ body {
 }
 .footer-links-block-txt {
   display: block;
+  border-right: 1px solid #252525;
+  padding: 0 10px 0 0;
+  margin: 0 10px 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #555555;
 }
 .footer-links-block-link {
   display: block;
@@ -1573,6 +1578,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #555555;
+  text-transform: capitalize;
 }
 .brand-link {
   color: #959595;
