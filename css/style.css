@@ -1569,6 +1569,11 @@ body {
           box-sizing: border-box;
   color: #555555;
 }
+.footer-links-block-brandlink {
+  display: block;
+  text-decoration: none;
+  color: #959595;
+}
 .footer-links-block-link {
   display: block;
   text-decoration: none;
