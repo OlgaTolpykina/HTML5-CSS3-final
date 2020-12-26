@@ -1547,6 +1547,7 @@ body {
   padding: 45px 375px 50px 375px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-transform: capitalize;
 }
 .footer-links-block {
   display: -webkit-box;
@@ -1558,7 +1559,6 @@ body {
   font-family: 'montserrat', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #555555;
 }
 .footer-links-block-link {
   display: block;
@@ -1568,4 +1568,5 @@ body {
   margin: 0 10px 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #555555;
 }
