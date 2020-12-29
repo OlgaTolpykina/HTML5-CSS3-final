@@ -1819,4 +1819,20 @@ body {
   .statistics {
     display: none;
   }
+  .posts {
+    padding: 20px 20px;
+  }
+  .posts-subtitle {
+    padding: 0;
+  }
+  .posts-item {
+    margin: 0 0 10px 0;
+  }
+  .posts-item:nth-child(5) {
+    margin: 0;
+  }
+  .posts-pagination {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
 }
