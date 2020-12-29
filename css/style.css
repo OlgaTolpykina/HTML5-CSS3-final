@@ -1789,4 +1789,7 @@ body {
   .projects-gallery-item:nth-child(3n) {
     margin: 0 auto;
   }
+  .presentation {
+    display: none;
+  }
 }
