@@ -1774,4 +1774,13 @@ body {
   .description-multiphoto {
     display: none;
   }
+  .projects {
+    padding: 20px;
+  }
+  .projects-subtitle {
+    margin: 20px 70px 20px 70px;
+  }
+  .projects-categories {
+    margin: 0 0 20px 0;
+  }
 }
