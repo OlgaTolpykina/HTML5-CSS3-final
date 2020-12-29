@@ -1624,7 +1624,7 @@ body {
   }
   .header {
     background-position: top;
-    padding: 10px;
+    padding: 10px 10px 50px 10px;
   }
   .header-topline {
     -ms-flex-wrap: wrap;
@@ -1744,5 +1744,9 @@ body {
   }
   .header-carusel {
     display: none;
+  }
+  .main-features {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
