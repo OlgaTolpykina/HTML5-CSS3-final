@@ -1761,4 +1761,17 @@ body {
   .features:nth-child(4) {
     margin: 0;
   }
+  .ad {
+    display: none;
+  }
+  .description {
+    min-height: 0;
+    padding: 20px 0 20px 0;
+  }
+  .description-txt {
+    margin: 20px 70px 0 70px;
+  }
+  .description-multiphoto {
+    display: none;
+  }
 }
