@@ -1783,4 +1783,7 @@ body {
   .projects-categories {
     margin: 0 0 20px 0;
   }
+  .projects-gallery-item {
+    margin: 0 auto;
+  }
 }
