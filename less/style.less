@@ -1402,10 +1402,14 @@ body {
 @media (max-width: 576px) {
   .container {
     width: 100%;
+    border: @border;
+    box-sizing: border-box;
   }
   .header {
     background-position: top;
     padding: 10px 10px 50px 10px;
+    border: @border;
+    box-sizing: border-box;
   }
   .header-topline {
     flex-wrap: wrap;
@@ -1496,11 +1500,18 @@ body {
   .main-features {
     flex-wrap: wrap;
     padding: 10px;
+    border: @border;
+    box-sizing: border-box;
   }
   .features {
     max-width: 250px;
     padding: 0;
     margin: 0 0 10px 0;
+    border: @border;
+    box-sizing: border-box;
+  }
+  .features-icon {
+    height: 49px;
   }
   .features:nth-child(3) {
     margin: 0;
@@ -1512,8 +1523,10 @@ body {
     display: none;
   }
   .description {
-  min-height: 0;
-  padding: 20px 0 20px 0;
+    min-height: 0;
+    padding: 20px 0 20px 0;
+    border: @border;
+    box-sizing: border-box;
   }
   .description-title {
     text-align: center;
@@ -1525,7 +1538,9 @@ body {
     display: none;
   }
   .projects {
-  padding: 20px;
+    padding: 20px;
+    border: @border;
+    box-sizing: border-box;
   }
   .projects-subtitle {
     margin: 20px 70px 20px 70px;
@@ -1557,9 +1572,11 @@ body {
     display: none;
   }
   .mobile {
-  min-height: 0;
-  background-size: 160px 275px;
-  background-position: left 10px top 270px;
+    min-height: 0;
+    background-size: 160px 275px;
+    background-position: left 10px top 270px;
+    border: @border;
+    box-sizing: border-box;
 }
   .mobile-content {
     padding: 20px 10px;
@@ -1581,7 +1598,9 @@ body {
     display: none;
   }
   .posts {
-  padding: 20px 20px;
+    padding: 20px 20px;
+    border: @border;
+    box-sizing: border-box;
   }
   .posts-subtitle {
     padding: 0;
@@ -1601,6 +1620,8 @@ body {
     padding: 20px 0 0 0;
     flex-wrap: wrap;
     justify-content: center;
+    border: @border;
+    box-sizing: border-box;
   }
   .partners-logo {
     margin: 0 10px 20px 10px;
@@ -1609,12 +1630,14 @@ body {
     display: none;
   }
   .footer-links {
-  padding: 20px;
-  flex-wrap: wrap;
+    padding: 20px;
+    flex-wrap: wrap;
+    border: @border;
+    box-sizing: border-box;
   }
   .footer-links-block {
-  width: 100%;
-  justify-content: center;
+    width: 100%;
+    justify-content: center;
   }
   .footer-links-block-txt {
     padding: 0 3px 0 0;
