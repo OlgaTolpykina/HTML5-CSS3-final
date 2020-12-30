@@ -1838,6 +1838,8 @@ body {
   .partners {
     min-height: 0;
     padding: 20px 40px 0 40px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .partners-logo {
     margin: 0 20px 20px 0;
