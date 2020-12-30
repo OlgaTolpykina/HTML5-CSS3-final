@@ -1620,16 +1620,10 @@ body {
 @media (max-width: 576px) {
   .container {
     width: 100%;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .header {
     background-position: top;
     padding: 10px 10px 50px 10px;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .header-topline {
     -ms-flex-wrap: wrap;
@@ -1754,17 +1748,11 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 10px;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .features {
     max-width: 250px;
     padding: 0;
     margin: 0 0 10px 0;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .features:nth-child(3) {
     margin: 0;
@@ -1778,9 +1766,6 @@ body {
   .description {
     min-height: 0;
     padding: 20px 0 20px 0;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .description-title {
     text-align: center;
@@ -1793,9 +1778,6 @@ body {
   }
   .projects {
     padding: 20px;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .projects-subtitle {
     margin: 20px 70px 20px 70px;
@@ -1831,9 +1813,6 @@ body {
     min-height: 0;
     background-size: 160px 275px;
     background-position: left 10px top 270px;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .mobile-content {
     padding: 20px 10px;
@@ -1856,9 +1835,6 @@ body {
   }
   .posts {
     padding: 20px 20px;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .posts-subtitle {
     padding: 0;
@@ -1881,9 +1857,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .partners-logo {
     margin: 0 10px 20px 10px;
@@ -1895,9 +1868,6 @@ body {
     padding: 20px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    border: 1px solid #000000;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .footer-links-block {
     width: 100%;
